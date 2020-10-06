@@ -1,15 +1,11 @@
 import React from 'react';
-import ComponentOne from './ComponentOne';
-import ComponentTwo from './ComponentTwo';
-import ComponentThree from './ComponentThree';
+import NavComponent from './NavComponent';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <ComponentOne />
-      <ComponentTwo />
-      <ComponentThree />
+      <NavComponent />
     </div>
   );
 }

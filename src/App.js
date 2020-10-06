@@ -5,6 +5,7 @@ import About from './About';
 import Species from './Species';
 import Features from './Features';
 import Habitat from './Habitat';
+import Image from './Image';
 import './App.css';
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <Species />
       <Features />
       <Habitat />
+      <br></br>
+      <Image />
     </div>
   );
 }

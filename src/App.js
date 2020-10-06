@@ -4,6 +4,7 @@ import Links from './Links';
 import About from './About';
 import Species from './Species';
 import Features from './Features';
+import Habitat from './Habitat';
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Species />
       <Features />
+      <Habitat />
     </div>
   );
 }

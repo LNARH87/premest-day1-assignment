@@ -8,6 +8,7 @@ import Habitat from './Habitat';
 import Image from './Image';
 import Video from './Video';
 import RelatedContent from './RelatedContent';
+import Address from './Address';
 import './App.css';
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
       <Image /><br></br><Video />
       <br></br>
       <RelatedContent />
+      <br></br>
+      <br></br>
+      <Address />
     </div>
   );
 }

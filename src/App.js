@@ -7,6 +7,7 @@ import Features from './Features';
 import Habitat from './Habitat';
 import Image from './Image';
 import Video from './Video';
+import RelatedContent from './RelatedContent';
 import './App.css';
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
       <Habitat />
       <br></br>
       <Image /><br></br><Video />
+      <br></br>
+      <RelatedContent />
     </div>
   );
 }
